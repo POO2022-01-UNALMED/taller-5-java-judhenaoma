@@ -78,8 +78,8 @@ public class Animal {
         String str = "Mi nombre es " + nombre + ", tengo una edad de " + edad 
                 + ", habito en " + habitat + " y mi genero es " + genero;
         if (this.zona != null) {
-            str += ", la zona en la que me ubico es " + zona.getNombre().getNombre()
-                    + ", en el  " + zona.getZoo();
+            str += ", la zona en la que me ubico es " + zona.getNombre().getNombre();
+                    + ", en el " + zona.getZoo();
         }
         return str;
     }
